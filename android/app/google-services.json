@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396134266611",
+    "firebase_url": "https://stramplerbande-d7bd4.firebaseio.com",
+    "project_id": "stramplerbande-d7bd4",
+    "storage_bucket": "stramplerbande-d7bd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396134266611:android:60750f6bf216113ec0a986",
+        "android_client_info": {
+          "package_name": "com.stramplerbande"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396134266611-fj2b85oarloifiu1pme7qf91o3bp2cpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA81npB7docSxwRWCitVdwvmVXQC77ZB4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396134266611-fj2b85oarloifiu1pme7qf91o3bp2cpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
