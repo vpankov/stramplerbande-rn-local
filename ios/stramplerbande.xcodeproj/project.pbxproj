@@ -16,14 +16,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* stramplerbandeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* stramplerbandeTests.m */; };
-		44BF5422236EF3F00056698D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44BF5421236EF3F00056698D /* GoogleService-Info.plist */; };
-		44BF5423236EF3F00056698D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44BF5421236EF3F00056698D /* GoogleService-Info.plist */; };
-		44BF5424236EF3F00056698D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44BF5421236EF3F00056698D /* GoogleService-Info.plist */; };
-		44BF5425236EF3F00056698D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44BF5421236EF3F00056698D /* GoogleService-Info.plist */; };
 		53AA2124E8C1EF594D7A60A0 /* libPods-stramplerbande-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC96312CCAEACC822EF6DA /* libPods-stramplerbande-tvOS.a */; };
 		5E334DA4780271FA2BC6C14B /* libPods-stramplerbandeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */; };
 		7A52B0D65BF138BD04F93C9D /* libPods-stramplerbande.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C1F13F8C24FD2D55F6192B /* libPods-stramplerbande.a */; };
 		94AB428053A6EACD50B46F3B /* libPods-stramplerbande-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */; };
+		BE5EC413236F28F800E3826E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE5EC412236F28F800E3826E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +57,6 @@
 		2D02E47B1E0B4A5D006451C7 /* stramplerbande-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stramplerbande-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* stramplerbande-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stramplerbande-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCDE7DA42FBDB058A2FA56E /* Pods-stramplerbandeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandeTests.release.xcconfig"; path = "Target Support Files/Pods-stramplerbandeTests/Pods-stramplerbandeTests.release.xcconfig"; sourceTree = "<group>"; };
-		44BF5421236EF3F00056698D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44BF5426236EF8710056698D /* stramplerbande.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = stramplerbande.entitlements; path = stramplerbande/stramplerbande.entitlements; sourceTree = "<group>"; };
 		44BF5427236EF8D20056698D /* stramplerbandeDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = stramplerbandeDebug.entitlements; path = stramplerbande/stramplerbandeDebug.entitlements; sourceTree = "<group>"; };
 		73F886F0E4EC6C382F22114E /* Pods-stramplerbande.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande/Pods-stramplerbande.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +64,7 @@
 		89C32ABFF6AEFD209B8D427E /* Pods-stramplerbande-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOSTests/Pods-stramplerbande-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbandeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACD9D44973729CBCA38E883 /* Pods-stramplerbande-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOS.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOS/Pods-stramplerbande-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		BE5EC412236F28F800E3826E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D3C1F13F8C24FD2D55F6192B /* libPods-stramplerbande.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbande.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F44A9D845965D1F017E4E5 /* Pods-stramplerbande-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOS/Pods-stramplerbande-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B8A28B5ECE044AFE94A69 /* Pods-stramplerbande.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande/Pods-stramplerbande.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,8 +131,8 @@
 			children = (
 				44BF5427236EF8D20056698D /* stramplerbandeDebug.entitlements */,
 				44BF5426236EF8710056698D /* stramplerbande.entitlements */,
-				44BF5421236EF3F00056698D /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				BE5EC412236F28F800E3826E /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -344,7 +341,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44BF5423236EF3F00056698D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +350,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				44BF5422236EF3F00056698D /* GoogleService-Info.plist in Resources */,
+				BE5EC413236F28F800E3826E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
-				44BF5424236EF3F00056698D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +366,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44BF5425236EF3F00056698D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
