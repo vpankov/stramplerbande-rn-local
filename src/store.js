@@ -2,9 +2,9 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 import * as constants from './utils/constants';
 
-export const saveCredentials = (username, password) => {
-  AsyncStorage.setItem(constants.USERNAME, username);
-  AsyncStorage.setItem(constants.PASSWORD, password);
+export const saveCredentials = async (username, password) => {
+  await AsyncStorage.setItem(constants.USERNAME, username);
+  return AsyncStorage.setItem(constants.PASSWORD, password);
 };
 
 export const getCredentials = async () => {

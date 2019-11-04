@@ -9,6 +9,7 @@ import NavigationBar from './src/components/NavigationBar';
 import setupScript from './scripts/setup';
 import configurePushService from './src/http/services/configurePushService';
 import validateCredentialsService from './src/http/services/validateCredentialsService';
+import {saveCredentials} from './src/store';
 
 const BASE_URL = 'https://www.racker-bande.de/';
 export default class App extends Component {
@@ -62,11 +63,17 @@ export default class App extends Component {
   onMessage = async ({nativeEvent}) => {
     const data = JSON.parse(nativeEvent.data);
     const token = await this.checkPermission();
+    console.log('onMessage');
     switch (data.type) {
       case 'login':
+        console.log('login');
+        await saveCredentials(data.username, data.password);
         validateCredentialsService(data)
-          .then(() => configurePushService({token, status: true}))
-          .catch(() => {});
+          .then(() => {
+            configurePushService({token, status: true});
+            console.log('success');
+          })
+          .catch(() => console.log('error'));
         break;
       case 'logout':
         configurePushService({token, status: false});
