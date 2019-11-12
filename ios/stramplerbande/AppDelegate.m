@@ -22,7 +22,8 @@
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                    moduleName:@"stramplerbande"
                                             initialProperties:nil];
-
+  
+  
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -31,8 +32,58 @@
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   [FIRApp configure];
+  
+  NSLog(@"Remote notification register");
+  // Register for remote notifications.
+   UIRemoteNotificationType myTypes = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
+      [[UIApplication sharedApplication] registerForRemoteNotificationTypes:myTypes];
+  [application registerForRemoteNotifications];
   return YES;
 }
+
+- (void)applicationDidFinishLaunching:(UIApplication *)app {
+    // Configure the user interactions first.
+//    [self configureUserInteractions];
+ NSLog(@"Remote notification register");
+   // Register for remote notifications.
+    [[UIApplication sharedApplication] registerForRemoteNotifications];
+}
+ 
+// Handle remote notification registration.
+- (void)application:(UIApplication *)app
+        didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+ NSUInteger length = deviceToken.length;
+    // if (length == 0) {
+    //     return nil;
+    // }
+    const unsigned char *buffer = deviceToken.bytes;
+    NSMutableString *hexString  = [NSMutableString stringWithCapacity:(length * 2)];
+    for (int i = 0; i < length; ++i) {
+        [hexString appendFormat:@"%02x", buffer[i]];
+    }
+  NSLog(@"Token updated: %@", hexString);
+  [[NSUserDefaults standardUserDefaults] setObject: hexString forKey:@"deviceToken"];
+  [[NSUserDefaults standardUserDefaults]synchronize];
+}
+ 
+- (void)application:(UIApplication *)app
+        didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
+    // The token is not currently available.
+    NSLog(@"Remote notification support is unavailable due to error: %@", err);
+//    [self disableRemoteNotificationFeatures];
+}
+// + (NSString *)stringFromDeviceToken:(NSData *)deviceToken {
+//     NSUInteger length = deviceToken.length;
+//     if (length == 0) {
+//         return nil;
+//     }
+//     const unsigned char *buffer = deviceToken.bytes;
+//     NSMutableString *hexString  = [NSMutableString stringWithCapacity:(length * 2)];
+//     for (int i = 0; i < length; ++i) {
+//         [hexString appendFormat:@"%02x", buffer[i]];
+//     }
+//     return [hexString copy];
+// }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 {

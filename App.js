@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, ActivityIndicator, StyleSheet, Text } from 'react-native';
+import { View, ActivityIndicator, StyleSheet, Text, NativeModules } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { firebase } from '@react-native-firebase/messaging';
 import { WebView } from 'react-native-webview';
@@ -20,7 +20,7 @@ export default class App extends Component {
     token: 'none'
   };
   async componentDidMount() {
-    // Resolving bug with empty token on first getToken request
+    // setTimeout(function () {
     firebase.messaging().requestPermission()
       .then((value) => {
         firebase.messaging().getToken()
@@ -29,7 +29,12 @@ export default class App extends Component {
           })
       })
     //Permissions request
-    await requestNotifications(['alert', 'badge', 'sound']);
+    requestNotifications(['alert', 'badge', 'sound']);
+    // }, 10000);
+    // console.log(NativeModules.Counter)
+    // NativeModules.Counter.increment()
+    // Resolving bug with empty token on first getToken request
+
 
   }
   checkPermission() {
@@ -85,9 +90,10 @@ export default class App extends Component {
         await saveCredentials(data.username, data.password);
         validateCredentialsService(data)
           .then(() => {
-
+            // NativeModules.Counter.getCount(token => {
             configurePushService({ token, status: true });
             console.log('success', token);
+            // })
           })
           .catch(() => console.log('error'));
         break;
