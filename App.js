@@ -12,7 +12,7 @@ import validateCredentialsService from './src/http/services/validateCredentialsS
 import { saveCredentials } from './src/store';
 import { requestNotifications } from 'react-native-permissions';
 
-const BASE_URL = 'https://www.racker-bande.de/';
+const BASE_URL = 'http://sbdemo.theleanapps.com/';
 export default class App extends Component {
   state = {
     url: BASE_URL,
