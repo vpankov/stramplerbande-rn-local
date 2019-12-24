@@ -2,7 +2,7 @@ import axios from 'axios';
 import * as store from '../store'
 
 const _axios = axios.create({
-    baseURL: 'https://strampler-bande.de',
+    baseURL: 'http://sbtest.theleanapps.com',
 });
 
 _axios.interceptors.request.use(
