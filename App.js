@@ -113,6 +113,11 @@ export default class App extends Component {
           onNavigationStateChange={state => {
             this.setState({ url: state.url });
           }}
+          onError={
+            ()=>{
+              this.webView.reload();
+            }
+          }
           onLoadStart={() => {
             this.setState({
               isLoading: true,
