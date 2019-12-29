@@ -2,12 +2,12 @@ import axios from 'axios';
 import * as store from '../store'
 
 const _axios = axios.create({
-    baseURL: 'https://www.racker-bande.de',
+    baseURL: 'https://strampler-bande.de',
 });
 
 _axios.interceptors.request.use(
     async (request) => {
-        if ( request.url !== '/loginapi.php') {
+        if (request.url !== '/loginapi.php') {
             const { username, password } = await store.getCredentials()
             request.data = {
                 ...request.data,
