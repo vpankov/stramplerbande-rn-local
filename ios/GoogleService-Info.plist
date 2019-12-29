@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>396134266611-0gogg0tb6uestd9oruet3puf9ci2r11e.apps.googleusercontent.com</string>
+	<string>328658872520-btdcc8pm54sqqm2el6bq6tjsiu84frdf.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.396134266611-0gogg0tb6uestd9oruet3puf9ci2r11e</string>
+	<string>com.googleusercontent.apps.328658872520-btdcc8pm54sqqm2el6bq6tjsiu84frdf</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAI7bhr1mCXcaW9S3EpPtAKIVD9zAFdaSs</string>
+	<string>AIzaSyC6QfbSNeSqDN42LivGUTosCjGZz2ZxPXk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>396134266611</string>
+	<string>328658872520</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.stramplerbande</string>
+	<string>org.stramplerbande.sbdemo</string>
 	<key>PROJECT_ID</key>
-	<string>stramplerbande-d7bd4</string>
+	<string>sb-demo-fc9c9</string>
 	<key>STORAGE_BUCKET</key>
-	<string>stramplerbande-d7bd4.appspot.com</string>
+	<string>sb-demo-fc9c9.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:396134266611:ios:b92795d6a1a5fedfc0a986</string>
+	<string>1:328658872520:ios:ed9075d22975ad5d70ddfd</string>
 	<key>DATABASE_URL</key>
-	<string>https://stramplerbande-d7bd4.firebaseio.com</string>
+	<string>https://sb-demo-fc9c9.firebaseio.com</string>
 </dict>
 </plist>
