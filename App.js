@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, ActivityIndicator, StyleSheet, Text, Link } from 'react-native';
+import { View, ActivityIndicator, StyleSheet, Text, Linking } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { firebase } from '@react-native-firebase/messaging';
 import { WebView } from 'react-native-webview';
