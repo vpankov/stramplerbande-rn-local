@@ -111,7 +111,7 @@ export default class App extends Component {
           injectedJavaScript={setupScript}
           onMessage={this.onMessage}
           onNavigationStateChange={event => {
-            if (event.url.indexOf('download') !== -1 ) {
+            if (event.url.indexOf('download') !== -1 && Platform.OS === 'ios') {
               this.webView.stopLoading();
               Linking.openURL(event.url);
             } else {
