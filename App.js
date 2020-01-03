@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, ActivityIndicator, StyleSheet, Text, Link } from 'react-native';
+import { View, ActivityIndicator, StyleSheet, Text, Linking } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { firebase } from '@react-native-firebase/messaging';
 import { WebView } from 'react-native-webview';
@@ -111,7 +111,7 @@ export default class App extends Component {
           injectedJavaScript={setupScript}
           onMessage={this.onMessage}
           onNavigationStateChange={event => {
-            if (event.url.indexOf('download') !== -1 ) {
+            if (event.url.indexOf('download') !== -1 && Platform.OS === 'ios') {
               this.webView.stopLoading();
               Linking.openURL(event.url);
             } else {
