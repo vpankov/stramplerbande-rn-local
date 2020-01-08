@@ -123,7 +123,19 @@ export default class App extends Component {
               this.webView.reload();
             }
           }
-          onLoadStart={() => {
+          onShouldStartLoadWithRequest={e => {
+            console.log(e.url);
+            if(e.url.indexOf('/download?') != -1){
+              Linking.openURL(e.url);
+              return false;
+
+            }
+            return true;
+          }}
+          onLoadStart={e => {
+            if(e.nativeEvent.url.indexOf('/download?') != -1){
+              this.webView.reload();
+            }
             this.setState({
               isLoading: true,
             });
