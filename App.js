@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import { View, ActivityIndicator, StyleSheet, Text, Linking } from 'react-native';
+import { View, ActivityIndicator, StyleSheet, Text, Linking, Alert } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { firebase } from '@react-native-firebase/messaging';
 import { WebView } from 'react-native-webview';
 import { getStatusBarHeight } from 'react-native-status-bar-height';
+import RNFetchBlob from 'rn-fetch-blob';
+import RNFS from 'react-native-fs';
+import Share from 'react-native-share';
 
 import NavigationBar from './src/components/NavigationBar';
 import setupScript from './scripts/setup';
 import configurePushService from './src/http/services/configurePushService';
 import validateCredentialsService from './src/http/services/validateCredentialsService';
 import { saveCredentials } from './src/store';
-import { requestNotifications } from 'react-native-permissions';
+import { requestNotifications, request, PERMISSIONS } from 'react-native-permissions';
 
 const BASE_URL = 'http://sbtest.theleanapps.com/';
 export default class App extends Component {
@@ -93,6 +96,45 @@ export default class App extends Component {
         break;
       case 'logout':
         configurePushService({ token, status: false });
+        break;
+      case 'meeting':
+          if (Platform.OS === 'android') {
+            request(PERMISSIONS.ANDROID.WRITE_EXTERNAL_STORAGE).then(result => {
+              RNFetchBlob.config({
+                fileCache: true,
+                path: `${RNFetchBlob.fs.dirs.DownloadDir}/sb-event-${data.eventId}.ics`
+              }).fetch('GET', data.url, {
+                "Authorization": "Bearer " + data.token
+              })
+              .then((res) => {
+                Alert.alert("Download Success !");
+              })
+              .catch((errorMessage, statusCode) => {
+              })
+            });
+          } else {
+            RNFetchBlob
+            .config({
+              fileCache: true,
+              path: RNFetchBlob.fs.dirs.DocumentDir + `/sb-event-${data.eventId}.ics`
+            })
+            .fetch('GET', data.url, {
+              "Authorization": "Bearer " + data.token
+            }).then(async (res) => {
+
+              // the temp file path
+              if (res && res.path()) {
+                const filePath = res.path()
+                let options = {
+                  type: 'application/ics',
+                  url: filePath
+                }
+                await Share.open(options)
+                await RNFS.unlink(filePath)
+              }
+            })
+          }
+        break;
     }
   };
 
