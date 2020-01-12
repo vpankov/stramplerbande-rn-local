@@ -13,6 +13,7 @@ import setupScript from './scripts/setup';
 import configurePushService from './src/http/services/configurePushService';
 import validateCredentialsService from './src/http/services/validateCredentialsService';
 import { saveCredentials } from './src/store';
+import { apiURL } from './src/http/apiClient';
 import { requestNotifications, request, PERMISSIONS } from 'react-native-permissions';
 
 const BASE_URL = 'http://sbtest.theleanapps.com/';
@@ -120,6 +121,46 @@ export default class App extends Component {
             })
             .fetch('GET', data.url, {
               "Authorization": "Bearer " + data.token
+            }).then(async (res) => {
+
+              // the temp file path
+              if (res && res.path()) {
+                const filePath = res.path()
+                let options = {
+                  type: 'application/ics',
+                  url: filePath
+                }
+                await Share.open(options)
+                await RNFS.unlink(filePath)
+              }
+            })
+          }
+        break;
+        case 'file_download':
+          if (Platform.OS === 'android') {
+            request(PERMISSIONS.ANDROID.WRITE_EXTERNAL_STORAGE).then(result => {
+              RNFetchBlob.config({
+                fileCache: true,
+                path: `${RNFetchBlob.fs.dirs.DownloadDir}/${data.file}`
+              }).fetch('GET', `${apiURL}/file/${data.id}/download`, {
+                "Authorization": "Bearer " + data.token,
+                "responseType": "blob"
+              })
+              .then((res) => {
+                Alert.alert("Download Success !");
+              })
+              .catch((errorMessage, statusCode) => {
+              })
+            });
+          } else {
+            RNFetchBlob
+            .config({
+              fileCache: true,
+              path: RNFetchBlob.fs.dirs.DocumentDir + `/${data.file}`
+            })
+            .fetch('GET', `${apiURL}/file/${data.id}/download`, {
+              "Authorization": "Bearer " + data.token,
+              "responseType": "blob"
             }).then(async (res) => {
 
               // the temp file path

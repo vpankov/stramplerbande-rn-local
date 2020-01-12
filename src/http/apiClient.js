@@ -1,8 +1,10 @@
 import axios from 'axios';
 import * as store from '../store'
 
+export const apiURL = 'http://sbtest.theleanapps.com:8091/api';
+
 const _axios = axios.create({
-    baseURL: 'http://sbtest.theleanapps.com',
+    baseURL: apiURL,
 });
 
 _axios.interceptors.request.use(
