@@ -300,6 +300,8 @@ PODS:
     - React-cxxreact (= 0.61.3)
     - React-jsi (= 0.61.3)
     - ReactCommon/jscallinvoker (= 0.61.3)
+  - rn-fetch-blob (0.12.0):
+    - React-Core
   - RNCAsyncStorage (1.6.2):
     - React
   - RNFBApp (6.0.3):
@@ -309,7 +311,11 @@ PODS:
     - Firebase/Messaging (~> 6.8.1)
     - React
     - RNFBApp
+  - RNFS (2.16.2):
+    - React
   - RNPermissions (2.0.3):
+    - React
+  - RNShare (2.0.0):
     - React
   - Yoga (1.14.0)
 
@@ -344,10 +350,13 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
+  - RNFS (from `../node_modules/react-native-fs`)
   - RNPermissions (from `../node_modules/react-native-permissions`)
+  - RNShare (from `../node_modules/react-native-share`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -421,14 +430,20 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  rn-fetch-blob:
+    :path: "../node_modules/rn-fetch-blob"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
   RNFBApp:
     :path: "../node_modules/@react-native-firebase/app"
   RNFBMessaging:
     :path: "../node_modules/@react-native-firebase/messaging"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
   RNPermissions:
     :path: "../node_modules/react-native-permissions"
+  RNShare:
+    :path: "../node_modules/react-native-share"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -474,10 +489,13 @@ SPEC CHECKSUMS:
   React-RCTText: b8f895b94aa0e7778fef28d13f3d71eed4a10c3d
   React-RCTVibration: 262588c97551b0b1c675468cda857466ba5af18f
   ReactCommon: c2c63d9290b422ca6ad5b3663073a015dd892ae9
+  rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: 60a80e72d95bf02a01cace55d3697d9724f0d77f
   RNFBApp: 92ae594c85e82e1e68434049b2a37e1f584cf8b9
   RNFBMessaging: 5a82056efc1bf45a8467121d1a531feca34b9fa4
+  RNFS: 0d4191b1052bef9ce70deff00a5b4169c62bbd9b
   RNPermissions: 9e437a90de84a5402ff689d4da233730b81556c2
+  RNShare: 8b171d4b43c1d886917fdd303bf7a4b87167b05c
   Yoga: 02036f6383c0008edb7ef0773a0e6beb6ce82bd1
 
 PODFILE CHECKSUM: 90d3d01376023195e77135d5c5e80b1717d4b1e5
