@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:312693658001:android:e983406a150f775a0e4a30",
         "android_client_info": {
-          "package_name": "com.stramplerbande.sbtest"
+          "package_name": "com.stramplerbande.prod"
         }
       },
       "oauth_client": [

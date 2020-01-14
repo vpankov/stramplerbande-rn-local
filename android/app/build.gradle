@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.stramplerbande.sbtest"
+        applicationId "com.stramplerbande.prod"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 7
