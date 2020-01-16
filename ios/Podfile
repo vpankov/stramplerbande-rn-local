@@ -1,7 +1,7 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'stramplerbande' do
+target 'stramplerbandedemo' do
   # Pods for stramplerbande
   pod 'Firebase/Analytics'
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
@@ -34,6 +34,12 @@ target 'stramplerbande' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications.podspec"
 
   target 'stramplerbandeTests' do
     inherit! :search_paths

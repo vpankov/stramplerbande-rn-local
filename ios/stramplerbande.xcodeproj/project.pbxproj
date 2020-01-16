@@ -18,9 +18,9 @@
 		2DCD954D1E0B4F2C00145EB5 /* stramplerbandeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* stramplerbandeTests.m */; };
 		53AA2124E8C1EF594D7A60A0 /* libPods-stramplerbande-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC96312CCAEACC822EF6DA /* libPods-stramplerbande-tvOS.a */; };
 		5E334DA4780271FA2BC6C14B /* libPods-stramplerbandeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */; };
-		7A52B0D65BF138BD04F93C9D /* libPods-stramplerbande.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C1F13F8C24FD2D55F6192B /* libPods-stramplerbande.a */; };
 		94AB428053A6EACD50B46F3B /* libPods-stramplerbande-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */; };
 		BE5EC413236F28F800E3826E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE5EC412236F28F800E3826E /* GoogleService-Info.plist */; };
+		E80557A7FB46B7EE15163044 /* libPods-stramplerbandedemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC806A333BC2D0B984F4F1 /* libPods-stramplerbandedemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		00E356EE1AD99517003FC87E /* stramplerbandeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stramplerbandeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* stramplerbandeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stramplerbandeTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* stramplerbande.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stramplerbande.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Stramplerbande.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stramplerbande.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = stramplerbande/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = stramplerbande/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -54,6 +54,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stramplerbande/main.m; sourceTree = "<group>"; };
 		19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbande-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ADFF1BDF8475D119B476E7 /* Pods-stramplerbande-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOSTests/Pods-stramplerbande-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2679CDF1D64056A0CE62801F /* Pods-stramplerbandedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandedemo.release.xcconfig"; path = "Target Support Files/Pods-stramplerbandedemo/Pods-stramplerbandedemo.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* stramplerbande-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stramplerbande-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* stramplerbande-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stramplerbande-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCDE7DA42FBDB058A2FA56E /* Pods-stramplerbandeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandeTests.release.xcconfig"; path = "Target Support Files/Pods-stramplerbandeTests/Pods-stramplerbandeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,10 +63,11 @@
 		73F886F0E4EC6C382F22114E /* Pods-stramplerbande.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande/Pods-stramplerbande.debug.xcconfig"; sourceTree = "<group>"; };
 		7DDC96312CCAEACC822EF6DA /* libPods-stramplerbande-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbande-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C32ABFF6AEFD209B8D427E /* Pods-stramplerbande-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOSTests/Pods-stramplerbande-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		98090D37485DEE8AE9DF73FD /* Pods-stramplerbandedemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandedemo.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbandedemo/Pods-stramplerbandedemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbandeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EC806A333BC2D0B984F4F1 /* libPods-stramplerbandedemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbandedemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACD9D44973729CBCA38E883 /* Pods-stramplerbande-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOS.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOS/Pods-stramplerbande-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		BE5EC412236F28F800E3826E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D3C1F13F8C24FD2D55F6192B /* libPods-stramplerbande.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbande.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F44A9D845965D1F017E4E5 /* Pods-stramplerbande-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOS/Pods-stramplerbande-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B8A28B5ECE044AFE94A69 /* Pods-stramplerbande.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande/Pods-stramplerbande.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -86,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A52B0D65BF138BD04F93C9D /* libPods-stramplerbande.a in Frameworks */,
+				E80557A7FB46B7EE15163044 /* libPods-stramplerbandedemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,8 @@
 				89C32ABFF6AEFD209B8D427E /* Pods-stramplerbande-tvOSTests.release.xcconfig */,
 				F96E10783E59186246C5317B /* Pods-stramplerbandeTests.debug.xcconfig */,
 				2DCDE7DA42FBDB058A2FA56E /* Pods-stramplerbandeTests.release.xcconfig */,
+				98090D37485DEE8AE9DF73FD /* Pods-stramplerbandedemo.debug.xcconfig */,
+				2679CDF1D64056A0CE62801F /* Pods-stramplerbandedemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,10 +167,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D3C1F13F8C24FD2D55F6192B /* libPods-stramplerbande.a */,
 				7DDC96312CCAEACC822EF6DA /* libPods-stramplerbande-tvOS.a */,
 				19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */,
 				A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */,
+				B1EC806A333BC2D0B984F4F1 /* libPods-stramplerbandedemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,7 +200,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* stramplerbande.app */,
+				13B07F961A680F5B00A75B9A /* Stramplerbande.app */,
 				00E356EE1AD99517003FC87E /* stramplerbandeTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* stramplerbande-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* stramplerbande-tvOSTests.xctest */,
@@ -226,9 +230,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* stramplerbandeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* stramplerbande */ = {
+		13B07F861A680F5B00A75B9A /* stramplerbandedemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stramplerbande" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stramplerbandedemo" */;
 			buildPhases = (
 				3BB4BD39DD9FBC4A37CF123E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -242,9 +246,9 @@
 			);
 			dependencies = (
 			);
-			name = stramplerbande;
+			name = stramplerbandedemo;
 			productName = stramplerbande;
-			productReference = 13B07F961A680F5B00A75B9A /* stramplerbande.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Stramplerbande.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* stramplerbande-tvOS */ = {
@@ -328,7 +332,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* stramplerbande */,
+				13B07F861A680F5B00A75B9A /* stramplerbandedemo */,
 				00E356ED1AD99517003FC87E /* stramplerbandeTests */,
 				2D02E47A1E0B4A5D006451C7 /* stramplerbande-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* stramplerbande-tvOSTests */,
@@ -415,7 +419,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stramplerbande-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-stramplerbandedemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -578,7 +582,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* stramplerbande */;
+			target = 13B07F861A680F5B00A75B9A /* stramplerbandedemo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
@@ -648,7 +652,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F886F0E4EC6C382F22114E /* Pods-stramplerbande.debug.xcconfig */;
+			baseConfigurationReference = 98090D37485DEE8AE9DF73FD /* Pods-stramplerbandedemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stramplerbande/stramplerbandeDebug.entitlements;
@@ -657,13 +661,14 @@
 				DEVELOPMENT_TEAM = LSA3K3T64J;
 				INFOPLIST_FILE = stramplerbande/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.stramplerbande;
-				PRODUCT_NAME = stramplerbande;
+				PRODUCT_BUNDLE_IDENTIFIER = org.stramplerbande.prod;
+				PRODUCT_NAME = Stramplerbande;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -671,7 +676,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE1B8A28B5ECE044AFE94A69 /* Pods-stramplerbande.release.xcconfig */;
+			baseConfigurationReference = 2679CDF1D64056A0CE62801F /* Pods-stramplerbandedemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stramplerbande/stramplerbande.entitlements;
@@ -679,13 +684,14 @@
 				DEVELOPMENT_TEAM = LSA3K3T64J;
 				INFOPLIST_FILE = stramplerbande/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.stramplerbande;
-				PRODUCT_NAME = stramplerbande;
+				PRODUCT_BUNDLE_IDENTIFIER = org.stramplerbande.prod;
+				PRODUCT_NAME = Stramplerbande;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +701,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4F44A9D845965D1F017E4E5 /* Pods-stramplerbande-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -723,7 +729,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BACD9D44973729CBCA38E883 /* Pods-stramplerbande-tvOS.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -912,7 +918,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stramplerbande" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stramplerbandedemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,

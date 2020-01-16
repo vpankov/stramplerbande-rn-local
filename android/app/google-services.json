@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "396134266611",
-    "firebase_url": "https://stramplerbande-d7bd4.firebaseio.com",
-    "project_id": "stramplerbande-d7bd4",
-    "storage_bucket": "stramplerbande-d7bd4.appspot.com"
+    "project_number": "312693658001",
+    "firebase_url": "https://sb-test-698e5.firebaseio.com",
+    "project_id": "sb-test-698e5",
+    "storage_bucket": "sb-test-698e5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:396134266611:android:60750f6bf216113ec0a986",
+        "mobilesdk_app_id": "1:312693658001:android:e983406a150f775a0e4a30",
         "android_client_info": {
-          "package_name": "com.stramplerbande"
+          "package_name": "com.stramplerbande.prod"
         }
       },
       "oauth_client": [
         {
-          "client_id": "396134266611-fj2b85oarloifiu1pme7qf91o3bp2cpt.apps.googleusercontent.com",
+          "client_id": "312693658001-54u44dhd7ridkjeom6c7a1tu3ckhcc4h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA81npB7docSxwRWCitVdwvmVXQC77ZB4g"
+          "current_key": "AIzaSyBpfYaeHqClH-EhM7YAp02vkrGRx9S04Qw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "396134266611-fj2b85oarloifiu1pme7qf91o3bp2cpt.apps.googleusercontent.com",
+              "client_id": "312693658001-54u44dhd7ridkjeom6c7a1tu3ckhcc4h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
