@@ -4,61 +4,12 @@ export default `
     window.ReactNativeWebView.postMessage(data);
   };
 
-  function initLogout() {
-    try {
-      const logoutButton = document.getElementById("account-logout")
-
-      if (logoutButton.isListenerAdded) {
-        return
-      }
-
-      logoutButton.addEventListener("click", onLogout);
-      logoutButton.isListenerAdded = true
-
-      function onLogout(event) {
-        event.preventDefault()
-        const goTo = this.getAttribute("href");
-        window.postMessage(JSON.stringify({ type: 'logout' }));
-        setTimeout(function(){
-          window.location = goTo;
-        }, 500);
-      }
-
-    } catch (err) {
-
-    }
+  window.rnOnLogout = function(authorizationHeader) {
+    window.postMessage(JSON.stringify({ type: 'logout', authorization: authorizationHeader }));
   }
 
-  function initLogin() {
-    try {
-      const loginButton = document.getElementById("account-login-form")
-
-      if (!loginButton || loginButton.isListenerAdded) {
-        return
-      }
-
-      loginButton.addEventListener("submit", onLogin);
-      loginButton.isListenerAdded = true
-
-      function onLogin(event) {
-        const username = document.getElementById("login_username").value;
-        const password = document.getElementById("login_password").value;
-        window.postMessage(JSON.stringify({ type: 'login', username, password }));
-      }
-
-    } catch (err) {
-      alert(err.message)
-    }
-  }
-
-  if (window.postMessage) {
-      initLogin()
-      initLogout()
-
-      setInterval(() => {
-          initLogin()
-          initLogout()
-        }, 2000)
+  window.rnOnLogin = function(authorizationHeader) {
+    window.postMessage(JSON.stringify({ type: 'login', authorization: authorizationHeader }));
   }
 }());
 const meta = document.createElement('meta'); meta.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta);

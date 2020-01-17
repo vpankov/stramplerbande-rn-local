@@ -10,9 +10,7 @@ import Share from 'react-native-share';
 
 import NavigationBar from './src/components/NavigationBar';
 import setupScript from './scripts/setup';
-import configurePushService from './src/http/services/configurePushService';
-import validateCredentialsService from './src/http/services/validateCredentialsService';
-import { saveCredentials } from './src/store';
+import { subscribeToken, unsubscribeToken } from './src/http/services/configurePushService';
 import { apiURL } from './src/http/apiClient';
 import { requestNotifications, request, PERMISSIONS } from 'react-native-permissions';
 
@@ -89,18 +87,12 @@ export default class App extends Component {
     console.log('onMessage');
     switch (data.type) {
       case 'login':
-        console.log('login');
-        await saveCredentials(data.username, data.password);
-        validateCredentialsService(data)
-          .then(() => {
-
-            configurePushService({ token, status: true });
-            console.log('success', token);
-          })
-          .catch(() => console.log('error'));
+        console.log('login')
+        subscribeToken(token, data.authorization);
         break;
       case 'logout':
-        configurePushService({ token, status: false });
+        console.log('login')
+        unsubscribeToken(token, data.authorization);
         break;
       case 'meeting':
           if (Platform.OS === 'android') {

@@ -1,20 +1,22 @@
 import apiClient from '../apiClient';
 
-const configurePushService = ({token, oldToken = '', status}) => {
-  if (!token) {
-    return Promise.reject(new Error('PUSH: device token is empty'));
-  }
-  console.log('token', token)
+export const subscribeToken = (token, authorizationHeader) =>
+  apiClient.post(
+    '/mobile-token',
+    {},
+    {
+      headers: {
+        Authorization: `Bearer ${authorizationHeader}`,
+        'Content-Type': 'application/json',
+      },
+    },
+  );
 
-  const payload = {
-    device_token: token,
-    old_device_token: oldToken,
-    status: status ? 1 : 0,
-  };
-
-  return apiClient.post('/pSubscription.php', payload).then(result => {
-    return result;
+export const unsubscribeToken = (token, authorizationHeader) =>
+  apiClient.delete('/mobile-token', {
+    headers: {
+      Authorization: `Bearer ${authorizationHeader}`,
+      'Content-Type': 'application/json',
+    },
+    data: {token}
   });
-};
-
-export default configurePushService;
