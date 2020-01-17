@@ -667,7 +667,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.stramplerbande.prod;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.stramplerbande;
 				PRODUCT_NAME = Stramplerbande;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -690,7 +690,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.stramplerbande.prod;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.stramplerbande;
 				PRODUCT_NAME = Stramplerbande;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
