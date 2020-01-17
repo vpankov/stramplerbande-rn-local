@@ -37,8 +37,8 @@ export default class App extends Component {
       })
     //Permissions request
     await requestNotifications(['alert', 'badge', 'sound']);
-
   }
+
   checkPermission() {
     return firebase
       .messaging()
@@ -71,7 +71,8 @@ export default class App extends Component {
     let fcmToken = await AsyncStorage.getItem('fcmToken');
     if (!fcmToken) {
       fcmToken = await firebase.messaging().getToken();
-      if (fcmToken) {
+      console.log('fcmToken: ', fcmToken);
+        if (fcmToken) {
         console.log('after fcmToken: ', fcmToken);
         this.setState({ token: fcmToken });
         await AsyncStorage.setItem('fcmToken', fcmToken);
@@ -196,6 +197,7 @@ export default class App extends Component {
           javaScriptEnabled={true}
           injectedJavaScript={setupScript}
           onMessage={this.onMessage}
+          useWebKit
           onNavigationStateChange={event => {
             if (event.url.indexOf('download') !== -1 && Platform.OS === 'ios') {
               this.webView.stopLoading();
@@ -253,66 +255,3 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
-/*
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-import AsyncStorage from '@react-native-community/async-storage';
-import { firebase } from '@react-native-firebase/messaging';
-import { requestNotifications } from 'react-native-permissions';
-export default class App extends Component {
-
-  async componentDidMount() {
-    await requestNotifications(['alert', 'badge', 'sound']);
-    const registrationToken = await firebase.messaging().getToken();
-    console.log(instanceId, registrationToken);
-  }
-
-  async getToken() {
-    let fcmToken = await AsyncStorage.getItem('fcmToken');
-    console.log('before fcmToken: ', fcmToken);
-    if (!fcmToken) {
-      fcmToken = await firebase.messaging().getToken();
-      if (fcmToken) {
-        console.log('after fcmToken: ', fcmToken);
-        await AsyncStorage.setItem('fcmToken', fcmToken);
-      }
-    }
-  }
-
-  async requestPermission() {
-    firebase
-      .messaging()
-      .requestPermission()
-      .then(() => {
-        this.getToken();
-      })
-      .catch(error => {
-        console.log('permission rejected');
-      });
-  }
-
-  async checkPermission() {
-    firebase
-      .messaging()
-      .hasPermission()
-      .then(enabled => {
-        if (enabled) {
-          console.log('Permission granted');
-          this.getToken();
-        } else {
-          console.log('Request Permission');
-          this.requestPermission();
-        }
-      })
-      .catch(err => console.log(err));
-  }
-
-  render() {
-    return (
-      <View>
-        <Text>Hello</Text>
-      </View>
-    );
-  }
-}
-*/

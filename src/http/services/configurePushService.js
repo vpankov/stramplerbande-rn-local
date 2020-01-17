@@ -4,6 +4,7 @@ const configurePushService = ({token, oldToken = '', status}) => {
   if (!token) {
     return Promise.reject(new Error('PUSH: device token is empty'));
   }
+  console.log('token', token)
 
   const payload = {
     device_token: token,
