@@ -21,6 +21,7 @@
 		94AB428053A6EACD50B46F3B /* libPods-stramplerbande-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */; };
 		BE5EC413236F28F800E3826E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE5EC412236F28F800E3826E /* GoogleService-Info.plist */; };
 		E80557A7FB46B7EE15163044 /* libPods-stramplerbandedemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC806A333BC2D0B984F4F1 /* libPods-stramplerbandedemo.a */; };
+		EA404F27240833D500E7B260 /* launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = EA404F26240833D500E7B260 /* launcher.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +43,10 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* stramplerbandeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stramplerbandeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* klixtersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klixtersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* stramplerbandeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stramplerbandeTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Stramplerbande.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stramplerbande.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Klixters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klixters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = stramplerbande/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = stramplerbande/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -55,8 +56,8 @@
 		19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbande-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ADFF1BDF8475D119B476E7 /* Pods-stramplerbande-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOSTests/Pods-stramplerbande-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2679CDF1D64056A0CE62801F /* Pods-stramplerbandedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandedemo.release.xcconfig"; path = "Target Support Files/Pods-stramplerbandedemo/Pods-stramplerbandedemo.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* stramplerbande-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stramplerbande-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* stramplerbande-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stramplerbande-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* klixters-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "klixters-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* klixters-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "klixters-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCDE7DA42FBDB058A2FA56E /* Pods-stramplerbandeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandeTests.release.xcconfig"; path = "Target Support Files/Pods-stramplerbandeTests/Pods-stramplerbandeTests.release.xcconfig"; sourceTree = "<group>"; };
 		44BF5426236EF8710056698D /* stramplerbande.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = stramplerbande.entitlements; path = stramplerbande/stramplerbande.entitlements; sourceTree = "<group>"; };
 		44BF5427236EF8D20056698D /* stramplerbandeDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = stramplerbandeDebug.entitlements; path = stramplerbande/stramplerbandeDebug.entitlements; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		BE5EC412236F28F800E3826E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4F44A9D845965D1F017E4E5 /* Pods-stramplerbande-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOS/Pods-stramplerbande-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B8A28B5ECE044AFE94A69 /* Pods-stramplerbande.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande/Pods-stramplerbande.release.xcconfig"; sourceTree = "<group>"; };
+		EA404F26240833D500E7B260 /* launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launcher.png; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F96E10783E59186246C5317B /* Pods-stramplerbandeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandeTests.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbandeTests/Pods-stramplerbandeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,13 +113,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* stramplerbandeTests */ = {
+		00E356EF1AD99517003FC87E /* klixtersTests */ = {
 			isa = PBXGroup;
 			children = (
 				00E356F21AD99517003FC87E /* stramplerbandeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = stramplerbandeTests;
+			path = klixtersTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -128,7 +130,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* stramplerbande */ = {
+		13B07FAE1A68108700A75B9A /* klixters */ = {
 			isa = PBXGroup;
 			children = (
 				44BF5427236EF8D20056698D /* stramplerbandeDebug.entitlements */,
@@ -138,11 +140,12 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				EA404F26240833D500E7B260 /* launcher.png */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = stramplerbande;
+			name = klixters;
 			sourceTree = "<group>";
 		};
 		2225A8E2B8F686ACA9B20D36 /* Pods */ = {
@@ -185,9 +188,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* stramplerbande */,
+				13B07FAE1A68108700A75B9A /* klixters */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* stramplerbandeTests */,
+				00E356EF1AD99517003FC87E /* klixtersTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2225A8E2B8F686ACA9B20D36 /* Pods */,
@@ -200,10 +203,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Stramplerbande.app */,
-				00E356EE1AD99517003FC87E /* stramplerbandeTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* stramplerbande-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* stramplerbande-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Klixters.app */,
+				00E356EE1AD99517003FC87E /* klixtersTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* klixters-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* klixters-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,9 +214,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* stramplerbandeTests */ = {
+		00E356ED1AD99517003FC87E /* klixtersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stramplerbandeTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "klixtersTests" */;
 			buildPhases = (
 				4970F5C4AC9BF0673996B807 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -225,14 +228,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = stramplerbandeTests;
+			name = klixtersTests;
 			productName = stramplerbandeTests;
-			productReference = 00E356EE1AD99517003FC87E /* stramplerbandeTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* klixtersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* stramplerbandedemo */ = {
+		13B07F861A680F5B00A75B9A /* klixtersdemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stramplerbandedemo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "klixtersdemo" */;
 			buildPhases = (
 				3BB4BD39DD9FBC4A37CF123E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -246,14 +249,14 @@
 			);
 			dependencies = (
 			);
-			name = stramplerbandedemo;
+			name = klixtersdemo;
 			productName = stramplerbande;
-			productReference = 13B07F961A680F5B00A75B9A /* Stramplerbande.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Klixters.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* stramplerbande-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* klixters-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stramplerbande-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "klixters-tvOS" */;
 			buildPhases = (
 				A4B9609629E1C4073FA43349 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -266,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = "stramplerbande-tvOS";
+			name = "klixters-tvOS";
 			productName = "stramplerbande-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* stramplerbande-tvOS.app */;
+			productReference = 2D02E47B1E0B4A5D006451C7 /* klixters-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* stramplerbande-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* klixters-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stramplerbande-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "klixters-tvOSTests" */;
 			buildPhases = (
 				6103CB40E1BECE0F42A177C3 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -285,9 +288,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "stramplerbande-tvOSTests";
+			name = "klixters-tvOSTests";
 			productName = "stramplerbande-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* stramplerbande-tvOSTests.xctest */;
+			productReference = 2D02E4901E0B4A5D006451C7 /* klixters-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +308,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = LSA3K3T64J;
+						DevelopmentTeam = 2CBQGJU693;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -318,7 +321,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "stramplerbande" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "klixters" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -332,10 +335,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* stramplerbandedemo */,
-				00E356ED1AD99517003FC87E /* stramplerbandeTests */,
-				2D02E47A1E0B4A5D006451C7 /* stramplerbande-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* stramplerbande-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* klixtersdemo */,
+				00E356ED1AD99517003FC87E /* klixtersTests */,
+				2D02E47A1E0B4A5D006451C7 /* klixters-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* klixters-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,6 +357,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				EA404F27240833D500E7B260 /* launcher.png in Resources */,
 				BE5EC413236F28F800E3826E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,12 +586,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* stramplerbandedemo */;
+			target = 13B07F861A680F5B00A75B9A /* klixtersdemo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* stramplerbande-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* klixters-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -625,7 +629,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stramplerbande.app/stramplerbande";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Klixters.app/Klixters";
 			};
 			name = Debug;
 		};
@@ -646,7 +650,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stramplerbande.app/stramplerbande";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Klixters.app/Klixters";
 			};
 			name = Release;
 		};
@@ -656,19 +660,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stramplerbande/stramplerbandeDebug.entitlements;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = LSA3K3T64J;
+				DEVELOPMENT_TEAM = 2CBQGJU693;
 				INFOPLIST_FILE = stramplerbande/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.stramplerbande;
-				PRODUCT_NAME = Stramplerbande;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.klixters-test";
+				PRODUCT_NAME = Klixters;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -680,18 +684,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stramplerbande/stramplerbande.entitlements;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = LSA3K3T64J;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CBQGJU693;
 				INFOPLIST_FILE = stramplerbande/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.stramplerbande;
-				PRODUCT_NAME = Stramplerbande;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.klixters-test";
+				PRODUCT_NAME = Klixters;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -775,7 +779,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.stramplerbande-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stramplerbande-tvOS.app/stramplerbande-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klixters-tvOS.app/klixters-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
@@ -802,7 +806,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.stramplerbande-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stramplerbande-tvOS.app/stramplerbande-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klixters-tvOS.app/klixters-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -909,7 +913,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stramplerbandeTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "klixtersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -918,7 +922,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stramplerbandedemo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "klixtersdemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -927,7 +931,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stramplerbande-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "klixters-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -936,7 +940,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "stramplerbande-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "klixters-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -945,7 +949,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "stramplerbande" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "klixters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:stramplerbande.xcodeproj">
+      location = "group:/Users/crypto/Developer/reactNative/stramplerbande-rn-local/ios/klixters.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/crypto/Developer/reactNative/stramplerbande-rn-local/ios/klixters.xcodeproj">
    </FileRef>
 </Workspace>

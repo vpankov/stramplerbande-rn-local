@@ -14,7 +14,7 @@ import { subscribeToken, unsubscribeToken } from './src/http/services/configureP
 import { apiURL } from './src/http/apiClient';
 import { requestNotifications, request, PERMISSIONS } from 'react-native-permissions';
 
-const BASE_URL = 'https://safe-to-connect.com/';
+const BASE_URL = 'https://klixters.nicecode.biz/';
 // const BASE_URL = 'https://stramplerbande.org/';
 // const BASE_URL = 'http://sbtest.theleanapps.com/';
 // const BASE_URL = 'http://sbdemo.theleanapps.com/';
@@ -185,7 +185,7 @@ export default class App extends Component {
           ref={ref => {
             this.webView = ref;
           }}
-          style={styles.webView}
+          style={[styles.webView, {opacity: this.state.isLoading ? 0 : 1}]}
           javaScriptEnabled={true}
           injectedJavaScript={setupScript}
           onMessage={this.onMessage}
@@ -226,11 +226,11 @@ export default class App extends Component {
             });
           }}
         />
-        <NavigationBar
+        {/* <NavigationBar
           goBack={() => this.webView.goBack()}
           reload={() => this.webView.reload()}
           goForward={() => this.webView.goForward()}
-        />
+        /> */}
       </View>
     );
   }
@@ -239,11 +239,11 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#708fa0',
+    backgroundColor: '#1B223A',
     paddingTop: getStatusBarHeight(),
   },
   webView: {
-    backgroundColor: '#708fa0',
+    backgroundColor: 'transparent',
     flex: 1,
   },
 });
