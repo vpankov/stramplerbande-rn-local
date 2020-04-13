@@ -14,7 +14,7 @@ import { subscribeToken, unsubscribeToken } from './src/http/services/configureP
 import { apiURL } from './src/http/apiClient';
 import { requestNotifications, request, PERMISSIONS } from 'react-native-permissions';
 
-const BASE_URL = 'https://klixters.nicecode.biz/';
+const BASE_URL = 'https://klixters.com/';
 // const BASE_URL = 'https://stramplerbande.org/';
 // const BASE_URL = 'http://sbtest.theleanapps.com/';
 // const BASE_URL = 'http://sbdemo.theleanapps.com/';
