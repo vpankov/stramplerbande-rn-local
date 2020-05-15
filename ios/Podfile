@@ -1,7 +1,7 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'stramplerbandedemo' do
+target 'klixtersdemo' do
   # Pods for stramplerbande
   pod 'Firebase/Analytics'
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
@@ -41,7 +41,7 @@ target 'stramplerbandedemo' do
 
   pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications.podspec"
 
-  target 'stramplerbandeTests' do
+  target 'klixtersTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -49,10 +49,10 @@ target 'stramplerbandedemo' do
   use_native_modules!
 end
 
-target 'stramplerbande-tvOS' do
+target 'klixters-tvOS' do
   # Pods for stramplerbande-tvOS
 
-  target 'stramplerbande-tvOSTests' do
+  target 'klixters-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

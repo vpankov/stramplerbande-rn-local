@@ -16,11 +16,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* stramplerbandeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* stramplerbandeTests.m */; };
-		53AA2124E8C1EF594D7A60A0 /* libPods-stramplerbande-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC96312CCAEACC822EF6DA /* libPods-stramplerbande-tvOS.a */; };
-		5E334DA4780271FA2BC6C14B /* libPods-stramplerbandeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */; };
-		94AB428053A6EACD50B46F3B /* libPods-stramplerbande-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */; };
+		4095150620830228713BCC90 /* libPods-klixtersdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A64C9E37D42E0DF4B463C693 /* libPods-klixtersdemo.a */; };
+		78E6A2B225C5856183DE0462 /* libPods-klixtersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6723E5CE9B5B42A6135C6E9B /* libPods-klixtersTests.a */; };
+		A004601B4043D2ED35500FA5 /* libPods-klixters-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E034A973EADCDD79049A5E37 /* libPods-klixters-tvOS.a */; };
 		BE5EC413236F28F800E3826E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE5EC412236F28F800E3826E /* GoogleService-Info.plist */; };
-		E80557A7FB46B7EE15163044 /* libPods-stramplerbandedemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC806A333BC2D0B984F4F1 /* libPods-stramplerbandedemo.a */; };
+		C7F970FF064F0503753AC1D9 /* libPods-klixters-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 545B748C5E15F0680312EC36 /* libPods-klixters-tvOSTests.a */; };
 		EA404F27240833D500E7B260 /* launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = EA404F26240833D500E7B260 /* launcher.png */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +46,7 @@
 		00E356EE1AD99517003FC87E /* klixtersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klixtersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* stramplerbandeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stramplerbandeTests.m; sourceTree = "<group>"; };
+		092A5889DFFE27C23E2F7965 /* Pods-klixters-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixters-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-klixters-tvOSTests/Pods-klixters-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Klixters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klixters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = stramplerbande/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = stramplerbande/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = stramplerbande/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = stramplerbande/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stramplerbande/main.m; sourceTree = "<group>"; };
-		19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbande-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ADFF1BDF8475D119B476E7 /* Pods-stramplerbande-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOSTests/Pods-stramplerbande-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2679CDF1D64056A0CE62801F /* Pods-stramplerbandedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandedemo.release.xcconfig"; path = "Target Support Files/Pods-stramplerbandedemo/Pods-stramplerbandedemo.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* klixters-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "klixters-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,16 +61,24 @@
 		2DCDE7DA42FBDB058A2FA56E /* Pods-stramplerbandeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandeTests.release.xcconfig"; path = "Target Support Files/Pods-stramplerbandeTests/Pods-stramplerbandeTests.release.xcconfig"; sourceTree = "<group>"; };
 		44BF5426236EF8710056698D /* stramplerbande.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = stramplerbande.entitlements; path = stramplerbande/stramplerbande.entitlements; sourceTree = "<group>"; };
 		44BF5427236EF8D20056698D /* stramplerbandeDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = stramplerbandeDebug.entitlements; path = stramplerbande/stramplerbandeDebug.entitlements; sourceTree = "<group>"; };
+		4D06CA66364E761DFB6C6908 /* Pods-klixtersdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixtersdemo.release.xcconfig"; path = "Target Support Files/Pods-klixtersdemo/Pods-klixtersdemo.release.xcconfig"; sourceTree = "<group>"; };
+		545B748C5E15F0680312EC36 /* libPods-klixters-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-klixters-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6723E5CE9B5B42A6135C6E9B /* libPods-klixtersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-klixtersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F886F0E4EC6C382F22114E /* Pods-stramplerbande.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande/Pods-stramplerbande.debug.xcconfig"; sourceTree = "<group>"; };
-		7DDC96312CCAEACC822EF6DA /* libPods-stramplerbande-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbande-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C32ABFF6AEFD209B8D427E /* Pods-stramplerbande-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOSTests/Pods-stramplerbande-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		92285A7C24C1BB3EABA7EA6C /* Pods-klixters-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixters-tvOS.release.xcconfig"; path = "Target Support Files/Pods-klixters-tvOS/Pods-klixters-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		98090D37485DEE8AE9DF73FD /* Pods-stramplerbandedemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbandedemo.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbandedemo/Pods-stramplerbandedemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbandeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1EC806A333BC2D0B984F4F1 /* libPods-stramplerbandedemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stramplerbandedemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB74399ECCA8DC198B53EDC /* Pods-klixtersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixtersTests.debug.xcconfig"; path = "Target Support Files/Pods-klixtersTests/Pods-klixtersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A60EAF4B3A8B633AC2966941 /* Pods-klixters-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixters-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-klixters-tvOS/Pods-klixters-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A64C9E37D42E0DF4B463C693 /* libPods-klixtersdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-klixtersdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF39EB5C7F5B1D3763D0C899 /* Pods-klixters-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixters-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-klixters-tvOSTests/Pods-klixters-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7C10141F73A1B16CC84F69E /* Pods-klixtersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixtersTests.release.xcconfig"; path = "Target Support Files/Pods-klixtersTests/Pods-klixtersTests.release.xcconfig"; sourceTree = "<group>"; };
 		BACD9D44973729CBCA38E883 /* Pods-stramplerbande-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOS.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOS/Pods-stramplerbande-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		BE5EC412236F28F800E3826E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4F44A9D845965D1F017E4E5 /* Pods-stramplerbande-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-stramplerbande-tvOS/Pods-stramplerbande-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D9B92F5E1EC82F874C450FDB /* Pods-klixtersdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klixtersdemo.debug.xcconfig"; path = "Target Support Files/Pods-klixtersdemo/Pods-klixtersdemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B8A28B5ECE044AFE94A69 /* Pods-stramplerbande.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stramplerbande.release.xcconfig"; path = "Target Support Files/Pods-stramplerbande/Pods-stramplerbande.release.xcconfig"; sourceTree = "<group>"; };
+		E034A973EADCDD79049A5E37 /* libPods-klixters-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-klixters-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA404F26240833D500E7B260 /* launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launcher.png; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -82,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E334DA4780271FA2BC6C14B /* libPods-stramplerbandeTests.a in Frameworks */,
+				78E6A2B225C5856183DE0462 /* libPods-klixtersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80557A7FB46B7EE15163044 /* libPods-stramplerbandedemo.a in Frameworks */,
+				4095150620830228713BCC90 /* libPods-klixtersdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AA2124E8C1EF594D7A60A0 /* libPods-stramplerbande-tvOS.a in Frameworks */,
+				A004601B4043D2ED35500FA5 /* libPods-klixters-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94AB428053A6EACD50B46F3B /* libPods-stramplerbande-tvOSTests.a in Frameworks */,
+				C7F970FF064F0503753AC1D9 /* libPods-klixters-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +169,14 @@
 				2DCDE7DA42FBDB058A2FA56E /* Pods-stramplerbandeTests.release.xcconfig */,
 				98090D37485DEE8AE9DF73FD /* Pods-stramplerbandedemo.debug.xcconfig */,
 				2679CDF1D64056A0CE62801F /* Pods-stramplerbandedemo.release.xcconfig */,
+				A60EAF4B3A8B633AC2966941 /* Pods-klixters-tvOS.debug.xcconfig */,
+				92285A7C24C1BB3EABA7EA6C /* Pods-klixters-tvOS.release.xcconfig */,
+				092A5889DFFE27C23E2F7965 /* Pods-klixters-tvOSTests.debug.xcconfig */,
+				AF39EB5C7F5B1D3763D0C899 /* Pods-klixters-tvOSTests.release.xcconfig */,
+				9EB74399ECCA8DC198B53EDC /* Pods-klixtersTests.debug.xcconfig */,
+				B7C10141F73A1B16CC84F69E /* Pods-klixtersTests.release.xcconfig */,
+				D9B92F5E1EC82F874C450FDB /* Pods-klixtersdemo.debug.xcconfig */,
+				4D06CA66364E761DFB6C6908 /* Pods-klixtersdemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -170,10 +186,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7DDC96312CCAEACC822EF6DA /* libPods-stramplerbande-tvOS.a */,
-				19CDEED4BAC65730657B0706 /* libPods-stramplerbande-tvOSTests.a */,
-				A71644017EEE8A34D2017FC2 /* libPods-stramplerbandeTests.a */,
-				B1EC806A333BC2D0B984F4F1 /* libPods-stramplerbandedemo.a */,
+				E034A973EADCDD79049A5E37 /* libPods-klixters-tvOS.a */,
+				545B748C5E15F0680312EC36 /* libPods-klixters-tvOSTests.a */,
+				6723E5CE9B5B42A6135C6E9B /* libPods-klixtersTests.a */,
+				A64C9E37D42E0DF4B463C693 /* libPods-klixtersdemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -423,7 +439,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stramplerbandedemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-klixtersdemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -445,7 +461,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stramplerbandeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-klixtersTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -467,7 +483,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stramplerbande-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-klixters-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -499,7 +515,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stramplerbande-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-klixters-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -611,7 +627,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F96E10783E59186246C5317B /* Pods-stramplerbandeTests.debug.xcconfig */;
+			baseConfigurationReference = 9EB74399ECCA8DC198B53EDC /* Pods-klixtersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2CBQGJU693;
@@ -635,7 +651,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DCDE7DA42FBDB058A2FA56E /* Pods-stramplerbandeTests.release.xcconfig */;
+			baseConfigurationReference = B7C10141F73A1B16CC84F69E /* Pods-klixtersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -656,7 +672,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98090D37485DEE8AE9DF73FD /* Pods-stramplerbandedemo.debug.xcconfig */;
+			baseConfigurationReference = D9B92F5E1EC82F874C450FDB /* Pods-klixtersdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stramplerbande/stramplerbandeDebug.entitlements;
@@ -680,7 +696,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2679CDF1D64056A0CE62801F /* Pods-stramplerbandedemo.release.xcconfig */;
+			baseConfigurationReference = 4D06CA66364E761DFB6C6908 /* Pods-klixtersdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = stramplerbande/stramplerbande.entitlements;
@@ -703,7 +719,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4F44A9D845965D1F017E4E5 /* Pods-stramplerbande-tvOS.debug.xcconfig */;
+			baseConfigurationReference = A60EAF4B3A8B633AC2966941 /* Pods-klixters-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -731,7 +747,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BACD9D44973729CBCA38E883 /* Pods-stramplerbande-tvOS.release.xcconfig */;
+			baseConfigurationReference = 92285A7C24C1BB3EABA7EA6C /* Pods-klixters-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -759,7 +775,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20ADFF1BDF8475D119B476E7 /* Pods-stramplerbande-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 092A5889DFFE27C23E2F7965 /* Pods-klixters-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -786,7 +802,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C32ABFF6AEFD209B8D427E /* Pods-stramplerbande-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = AF39EB5C7F5B1D3763D0C899 /* Pods-klixters-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
